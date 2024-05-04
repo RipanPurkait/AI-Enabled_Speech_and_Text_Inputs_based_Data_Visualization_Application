@@ -1,4 +1,5 @@
 pandas
 pandasai
+yaml
 dotenv
 streamlit
