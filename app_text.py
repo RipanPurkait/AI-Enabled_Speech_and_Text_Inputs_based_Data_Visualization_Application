@@ -45,12 +45,12 @@ def main():
                 model = palm
             
             # Use selected model to generate visualization
-            result=pandas_ai.chat(prompt)
+            pandas_ai.chat(prompt)
            
             
             # Display generated visualization
             st.write("Generated Visualization/TextANswer Here")
-            st.image(result)
+            
             
 if __name__ == "__main__":
     main()
