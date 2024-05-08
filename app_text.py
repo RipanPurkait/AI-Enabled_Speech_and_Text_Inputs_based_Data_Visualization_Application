@@ -15,7 +15,7 @@ palm = GooglePalm(api_key=palm_api_token)
 
 
 def main():
-    st.title(" Data Visualization App")
+    st.title(" Data Visualization App using Text")
     
     # File upload section
     uploaded_file = st.file_uploader("Upload CSV file", type=["csv"])
